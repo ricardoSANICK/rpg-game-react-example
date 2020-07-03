@@ -32,7 +32,6 @@ export const getSpriteLocation = (direction, walkIndex) => {
 }
 
 export const getWalkIndex = (paramWalkIndex) => {
-    //const walkIndex = store.getState().player.walkIndex;
     const walkIndex = paramWalkIndex;
     return walkIndex >= 7 ? 0 : walkIndex + 1;
 }
